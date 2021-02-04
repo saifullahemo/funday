@@ -34,14 +34,14 @@ h1{
     h1{
       font-size: 42px !important;
       line-height: 100%;
-      margin-top: 5em;
+      margin-top: 2em;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     h1{
       font-size: 82px !important;
       line-height: 100%;
-      margin-top: 5em;
+      /* margin-top: 5em; */
     }
 }
 @media screen and (max-width: 600px) {
@@ -119,6 +119,14 @@ p{
     margin-left: 3em;
     margin-right: 3em;
 }
+
+@media screen and (max-width: 600px) {
+    #section{
+        margin-top: 20em;
+    /* margin-left: 3em; */
+    /* margin-right: 3em; */
+    }
+}
 .jumbotron-special{
     /* background-image: url(/img/pi.jpg); */
     height: 100vh;
@@ -135,8 +143,16 @@ p{
     height: 95px; 
     background-color: #f5f4f0 !important;
     /* padding: 4em; */
-
+   
 }
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        z-index: 9999;
+        background-color: #fff;
+    }
+}
+
 .navbar a{
     font-family: 'Roboto', sans-serif;
     color: #4a544c !important;
